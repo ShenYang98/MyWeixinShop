@@ -1,0 +1,22 @@
+@import "./styles/iconfont.wxss";
+
+/* 微信小程序中不支持通配符 */
+page,view,text,swiper,swiper-item,image,navigator{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+/* 主题颜色通过变量来实现 */
+page{
+  /* 定义主题颜色 */
+  --themeColor:#eb4450;
+  /* 定义统一字体大小 假设设计稿大小是375px
+      1px = 2rpx
+      14px = 28rpx
+  */
+  font-size: 28rpx;
+}
+
+image{
+  width: 100%;
+}
