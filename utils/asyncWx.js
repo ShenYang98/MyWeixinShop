@@ -90,7 +90,7 @@ export const login=()=>{
 
 
 export const requestPayment=(pay)=>{
-  return new Promise((resolve,reject)=>{
+  return  new Promise((resolve,reject)=>{
       wx.requestPayment({
         ...pay,
         success:(result)=>{
