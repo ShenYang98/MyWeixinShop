@@ -70,19 +70,7 @@ export const showToast=({title})=>{
     })
   })
 }
-export const requestPayment=(pay)=>{
-  return  new Promise((resolve,reject)=>{
-      wx.requestPayment({
-        ...pay,
-        success:(result)=>{
-          resolve(result);
-      },
-      fail:(err)=>{
-          reject(err);
-      }
-      })
-  })
-}
+
 
 export const login=()=>{
   return new Promise((resolve,reject)=>{
@@ -100,6 +88,18 @@ export const login=()=>{
   })
 }
 
-
+export const requestPayment=(pay)=>{
+  return  new Promise((resolve,reject)=>{
+      wx.requestPayment({
+        ...pay,
+        success:(result)=>{
+          resolve(result);
+      },
+      fail:(err)=>{
+          reject(err);
+      }
+      })
+  })
+}
 
 
