@@ -32,13 +32,7 @@
 
 ![](https://ftp.bmp.ovh/imgs/2020/11/6a10b049e8aa80d9.jpg)
 
-**4.购物车有商品：**
 
-![](https://pic.imgdb.cn/item/5f9f74601cd1bbb86b508418.jpg)
-
-**5.删除商品：**
-
-![](https://ftp.bmp.ovh/imgs/2020/11/90e59ad891710024.jpg)
 
 **6.收藏商品：**
 
